@@ -1,0 +1,28 @@
+/* @media(max-width: px) */
+@media(max-width: 991px) {
+    .navbar-nav {
+        background-color: var(--menu-hover-color);
+        padding: 25px 0;
+        border-radius: 15px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 18px;
+        font-weight: 500;
+        transition: all linear 0.2s;
+        padding: 10px 0;
+        color: var(--white-color) !important;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-bottom: 10px;
+    }
+
+    .nav-btn {
+        margin-top: 30px;
+    } 
+
+    .navbar-toggler:focus{ 
+        box-shadow: none;
+    } 
+}
