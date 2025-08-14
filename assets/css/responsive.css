@@ -20,9 +20,82 @@
 
     .nav-btn {
         margin-top: 30px;
-    } 
+    }
 
-    .navbar-toggler:focus{ 
+    .navbar-toggler:focus {
         box-shadow: none;
-    } 
+    }
+
+    .navbar-collapse {
+        padding: 15px 0 20px 0;
+    }
+}
+
+@media(max-width: 768px) {
+    #navbar .container {
+        padding: 5px 15px !important;
+    }
+
+    .img-fluid {
+        max-width: 70%;
+        margin-top: 85px;
+    }
+}
+
+@media(max-width: 668px) {
+    .hero-section {
+        padding: 65px 0 !important;
+    }
+
+    .hero-title h1 {
+        line-height: 55px !important;
+        font-size: 45px;
+    }
+
+    .hero-desc p {
+        font-size: 16px !important;
+    }
+
+    .hero-btn a {
+        padding: 10px 18px;
+    }
+
+    .img-fluid {
+        max-width: 70%;
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 475px) {
+    .hero-title h1 {
+        line-height: 45px !important;
+        font-size: 35px;
+        width: 415px;
+    }
+
+    .hero-desc p {
+        max-width: 80%;
+        /* width: 455px; */
+    }
+
+    .img-fluid {
+        display: none;
+    }
+}
+
+@media(max-width: 375px) {
+    .hero-desc p {
+        max-width: 68%;
+        /* width: 455px; */
+    }
+
+    .hero-title h1 {
+        line-height: 40px !important;
+        font-size: 30px;
+    }
+
+    .hero-btn a { 
+        font-size: 16px !important; 
+        padding: 10px 18px !important; 
+    }
 }
